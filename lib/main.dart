@@ -1,5 +1,4 @@
 import 'dart:convert';
-
 import 'package:flutter/material.dart';
 import 'package:flutter_json_widget/flutter_json_widget.dart';
 import 'package:http/http.dart' as http;
@@ -144,7 +143,7 @@ class _MyHomePageState extends State<MyHomePage> {
     var request = http.MultipartRequest(
       'POST',
       uri,
-    )..fields.addAll(postJson);/// This timeout for request. If response not get in 60 seconds. The request generates time our error;
+    )..fields.addAll(postJson);
 
     /// sending http form request
     var response = await request.send()
