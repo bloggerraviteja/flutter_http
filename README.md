@@ -15,4 +15,4 @@ For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
 
-- [tutorial](https://medium.com/dev-tutorials/flutter-tutorial-coach-mark-package-9f593c2725f)
+- [tutorial](https://medium.com/dev-tutorials/flutter-http-package-690521a27f6f)
